@@ -7,6 +7,7 @@ namespace LuckySpin.Models
         private int a, b, c; //instance variables
 
         //public Player Player { get; set; }
+        public Player Player { get; set; }
 
         public int A
         {
@@ -32,7 +33,7 @@ namespace LuckySpin.Models
                 return c;
             }
         }
-        //TODO: Create a public getter that makes the decision to display the image or not by returning "block" or "none" for the Razor templates CSS
+        //: Create a public getter that makes the decision to display the image or not by returning "block" or "none" for the Razor templates CSS
         public string Display
         {
             get
